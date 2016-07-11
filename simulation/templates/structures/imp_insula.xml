@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house">
+  <Cost>
+    <PopulationBonus>25</PopulationBonus>
+    <BuildTime>100</BuildTime>
+    <Resources>
+      <wood>250</wood>
+    </Resources>
+  </Cost>
+  <Obstruction>
+    <Static width="31.0" depth="21.0"/>
+  </Obstruction>
+  <Footprint>
+    <Square width="35.0" depth="25.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>10</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max>1200</Max>
+  </Health>
+  <Identity>
+    <Civ>imp</Civ>
+    <SpecificName>Insula</SpecificName>
+    <History>The word "domus" is the root of the English word "domicile" which means house or home. The typical middle and upper-class Roman Domus had many rooms, a skylight to collect water and provide sunlight, and a tile roof. An attached garden was later included under Hellenistic influence.</History>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/imperial_romans/insula.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Builder>
+    <Entities datatype="tokens">
+      -other/wallset_palisade
+      -structures/{civ}_wooden_tower
+      structures/rome_army_camp
+      structures/rome_wallset_siege
+      structures/rome_temple_vesta
+      structures/{civ}_wonder
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>rome</Civ>
+    <Lang>latin</Lang>
+    <SelectionGroupName>units/rome_infantry_militia</SelectionGroupName>
+    <GenericName>Urban Militiaman</GenericName>
+    <SpecificName>Vigiles Urbanum</SpecificName>
+    <Icon>units/rome_infantry_swordsman.png</Icon>
+    <History>Light melee infantry that trains very quickly from the Civic Center-only and only in small numbers (10 max per Civic Center). They can only be used as a quick reaction force in case of invasion or as a quick boost of workers at the beginning of a match. They have no hard counters against any other unit type and have only 1 rank. </History> </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/imperial_romans/infantry_militia.xml</Actor>
+  </VisualActor>
+</Entity>

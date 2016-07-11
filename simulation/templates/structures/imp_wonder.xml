@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_wonder">
+	<Footprint replace="">
+		<Circle radius="32.0"/>
+		<Height>20.0</Height>
+	</Footprint>
+	<Identity>
+		<Civ>imp</Civ>
+		<SpecificName>Colosseum</SpecificName>
+		<History> </History> 
+	</Identity>
+	<Obstruction>
+		<Static width="28.0" depth="32.0"/>
+	</Obstruction>
+	<VisualActor>
+		<FoundationActor>structures/fndn_theatron.xml</FoundationActor>
+		<Actor>structures/imperial_romans/wonder.xml</Actor>
+	</VisualActor>
+</Entity>

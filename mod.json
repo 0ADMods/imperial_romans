@@ -1,0 +1,9 @@
+{
+	"name": "imperial_romans",
+	"version": "0.0.22",
+	"label": "0 A.D. Antiquity Extension",
+	"url": "forum.wildfiregames.com",
+	"description": "Adds imperial romans to the game..",
+    "dependencies": ["0ad=0.0.22"],
+	"type": "content mod"
+}
