@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant name="Base">
+			<textures>
+				<texture file="props/rome_hastati_shields.png" name="baseTex"/>
+			</textures>
+		</variant>
+	</group>
+	<group>
+		<variant name="Shield-A">
+			<mesh>props/imp_hastati_shield_a.dae</mesh>
+		</variant>
+		<variant name="Shield-B">
+			<mesh>props/imp_hastati_shield_b.dae</mesh>
+		</variant>
+	</group>
+<material>player_trans.xml</material>
+</actor>
