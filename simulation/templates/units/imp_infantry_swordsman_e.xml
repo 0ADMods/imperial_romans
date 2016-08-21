@@ -7,7 +7,7 @@
     <Entity>units/imp_infantry_swordsman_c</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/imperial_romans/infantry_swordsman_a.xml</Actor>
+    <Actor>units/imperial_romans/infantry_swordsman_e.xml</Actor>
   </VisualActor>
 </Entity>
 
